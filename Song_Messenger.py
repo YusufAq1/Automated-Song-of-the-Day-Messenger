@@ -61,7 +61,7 @@ def main():
     schedule.every().day.at("14:22").do(send_song)
     while True:
         schedule.run_pending()
-        time.sleep(5)
+        time.sleep(1)
     
 
 if __name__ == "__main__":
