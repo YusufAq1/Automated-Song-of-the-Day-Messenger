@@ -7,8 +7,8 @@ import schedule
 import time
 
 def get_song():
-    CLIENT_ID = '0f755bf959dd48508b87a232bcf35cef'
-    CLIENT_SECRET = '3fb57acef28c4631a873ac11b15c1304'
+    CLIENT_ID = ''
+    CLIENT_SECRET = ''
 
     client_credentials_manager = SpotifyClientCredentials(CLIENT_ID, CLIENT_SECRET)
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
