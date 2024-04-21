@@ -40,10 +40,10 @@ def get_song():
 
 def send_song():
     
-    account_SID  = 'AC53ba2aff76556adaae2d55243d86a468'
-    auth_token = 'a409f28cffd3d182663eb910c55a335d'
-    twilio_number = '+19382015934'
-    target_number = '+14372863151'
+    account_SID  = ''
+    auth_token = ''
+    twilio_number = ''
+    target_number = ''
     
     
     client = Client(account_SID, auth_token)
